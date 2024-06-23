@@ -1,8 +1,9 @@
-function calculateTotal(number) {
-  var sum;
-  for(let i = 1; i = number; i++){
-      sum = i + i;
-    }
-    return sum;
-}
-calculateTotal(7);
+const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+
+const firstTwoEls = fruits.slice(0, 2);
+const nonExtremeEls = fruits.slice(1, 3);
+const lastThreeEls = fruits.slice(-3);
+
+console.log(firstTwoEls);
+console.log(nonExtremeEls);
+console.log(lastThreeEls);
