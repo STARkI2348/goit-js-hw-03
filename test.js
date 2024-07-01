@@ -1,9 +1,4 @@
-function calculateTotal(number) {
-  let sum = 0;
-  for (let i = 1; i <= number; i++) {
-    sum += i;
-  }
-   return sum;
- }
- 
-console.log(calculateTotal(18));
+function createReversedArray(arr) {
+  return arr;
+}
+console.log(createReversedArray(12, 85, 37, 4));
